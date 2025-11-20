@@ -5,6 +5,7 @@ public class Q19 {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("enter the position to remove");
 		int x=sc.nextInt();
+		sc.close();
 		int [] nums= {10,20,30,40,50,60,70};
 		System.out.println(Arrays.toString(getRemove(nums,x)));
 	}
